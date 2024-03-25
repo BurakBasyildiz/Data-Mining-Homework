@@ -27,10 +27,10 @@ head(mydata,50)%>% arrange(Dpi)
 mydata=mutate(mydata,
               Ddpi_symbol=case_when(
                                  Ddpi<=3.76 ~ ":(" ,
-                                 Ddpi>3.76 & Ddpi<=10 ~ ":|",
-                                 Ddpi>10 ~ ":)",
+                                 Ddpi>3.76 & Ddpi<=5 ~ ":|",
+                                 Ddpi>5~ ":)",
                                    ))
 
 head(mydata,3)
 mydata_3=select(mydata,Sr,Pop15,Pop75,Dpi,Dpi_cat,Ddpi,Ddpi_symbol)
-head(mydata_son)
+head(mydata_3,50)
