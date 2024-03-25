@@ -1,4 +1,7 @@
+#Burak Başyıldız
+#Veri Madenciliği Dersi Ödevi -Hafta - 4: 21.03.2024 / Platformlar, R Temel Bilgiler ve Veri Özetleme
 
+#R'de gömülü olan "Intercountry Life-Cycle Savings Data" isimli veri setini kullandım.
 
 head(LifeCycleSavings ) #Intercountry Life-Cycle Savings Data
 tibble(LifeCycleSavings)
