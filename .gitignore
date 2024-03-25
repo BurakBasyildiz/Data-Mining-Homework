@@ -32,5 +32,5 @@ mydata=mutate(mydata,
                                    ))
 
 head(mydata,3)
-mydata_3=select(mydata,Sr,Pop15,Pop75,Dpi,Dpi_cat,Ddpi,Ddpi_symbol)
+mydata_3=select(mydata,Sr,Pop15,Pop75,Dpi,Dpi_cat,Ddpi,Ddpi_symbol) #Yeni eklediğim sütunları istediğim sıraya koyup yeni bir isimle datayı kaydettim.
 head(mydata_3,50)
